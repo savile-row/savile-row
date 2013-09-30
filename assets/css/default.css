@@ -88,7 +88,7 @@ main section h3 {
 }
 
 #equipe div.container {
-  background: transparent url(../images/equipe-beatles-gray.png) no-repeat center center;
+  background: transparent url(../images/equipe-beatles-gray.png) no-repeat right center;
 }
 
 #equipe p {
