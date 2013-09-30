@@ -87,6 +87,10 @@ main section h3 {
   padding-bottom: 2em;
 }
 
+#equipe div.container {
+  background: transparent url(../images/equipe-beatles-gray.png) no-repeat center center;
+}
+
 #equipe p {
   font: normal 20px Arapey sans-serif;
   color: #4f4f4f;
@@ -145,6 +149,11 @@ a {
   background-color: #1a171b;
   color: #1a171b;
   height: 40px;
+}
+
+.media a {
+  margin-top: 45px;
+  padding-right: 22px;
 }
 
 .gravatar {
