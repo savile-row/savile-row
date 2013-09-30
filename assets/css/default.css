@@ -59,7 +59,6 @@ main section header h1 {
   color: #7f1518;
   font: bold 45px 'SavileRowDefaultFont', serif;
   text-transform: uppercase;
-  text-align: left;
 }
 
 main section header h1:after {
@@ -69,11 +68,28 @@ main section header h1:after {
   margin-top: -8px;
 }
 
-main section header h2 {
+main section h2 {
   color: #7f1518;
   font: bold 45px 'SavileRowDefaultFont', serif;
+  text-transform: capitalize;
+}
+
+main section h2 span {
   text-transform: uppercase;
-  text-align: left;
+}
+
+main section h3 {
+  color: #000000;
+  font: bold 30px 'SavileRowDefaultFont', serif;
+}
+
+#services {
+  padding-bottom: 2em;
+}
+
+#equipe p {
+  font: normal 20px Arapey sans-serif;
+  color: #4f4f4f;
 }
 
 p, .services-items li {
@@ -87,9 +103,34 @@ p, .services-items li {
   border-style: solid;
 }
 
+li.contact-phone {
+  font: normal 16px Arial, sans-serif;
+  color: #3b3636;
+}
+li.contact-envelope a {
+  font: normal 16px Arial, sans-serif;
+  color: #b61e22;
+}
+li.contact-home {
+  font: normal 16px Arial, sans-serif;
+  color: #4f4f4f;
+}
+
+a {
+  color: #b61e22;
+}
+
 #partenaires {
-  margin-top: 2em;
-  background-color: #f3f3f3;
+  background: #f3f3f3 url(../images/partners-background.png) repeat center center;
+}
+
+#partenaires p, dd {
+  font: normal 25px Arapey, sans-serif;
+  color: #000;
+}
+
+#partenaires .media-body p a:after {
+  content: " ("attr(href)")";
 }
 
 #actualites {
