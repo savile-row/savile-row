@@ -1,0 +1,77 @@
+header menu :
+couleur et font : 
+font_name : Ayres
+font_size : 33
+
+couleur de l'item sélectionné : #7f1518
+couleur de l'item non sélectionné : #f0f0f0
+couleur font item sélectionné : FFF
+couleur font item non sélectionné : #1e1314
+
+
+bandeau :
+font_name : Ayres
+font_size : 22
+txt : La «grande mesure»
+bandeau_visu :
+couleur gauche : #000000
+couleur droite : #502728
+nb : couleur des extrémités du visu !
+
+
+LA «GRANDE MESURE» AU SERVICE DE VOS AMBITIONS
+font_name : Ayres
+font_size : 45
+font_color : #7f1518
+
+texte contenu :
+font_name : Arapey
+font_size : 20
+
+
+LA «GRANDE MESURE» AU PLUS PRES DE VOS ATTENTES
+
+christine DALES :
+font_name : Ayres
+font_size : 45
+font_color : #7f1518
+
+directrice générale :
+font_name : Ayres
+font_size : 30
+font_color : #000000
+
+texte :
+font_name : Arapey
+font_size : 20
+font_color : #4f4f4f
+
+numéro de tel :
+font_name : arial
+font_size : 16
+font_color : #3b3636
+
+adresse mail :
+font_name : arial
+font_size : 16
+font_color : #b61e22
+
+adresse postale :
+font_name : arial
+font_size : 16
+font_color : #4f4f4f
+
+
+partenaire SAvile Row :
+texte intro :
+font_name : Arapey
+font_size : 25
+font_color : #000000
+
+
+LA «GRANDE MESURE» EN ACTIONS
+background_color : #7f1519
+
+
+bottom_bar :
+color : #1a171b
