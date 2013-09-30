@@ -15,6 +15,24 @@
   height: 126px;
 }
 
+#main-header nav {
+  margin-top: 30px;
+}
+
+#main-header nav a {
+  font: normal 33px 'SavileRowDefaultFont', serif;
+  display: block;
+  padding: 4px 10px;
+  color: #1e1314;
+  background-color: #f0f0f0;
+}
+
+#main-header nav a:hover, #main-header nav a.active {
+  color: #fff;
+  background-color: #7f1518;
+  text-decoration: none;
+}
+
 #jumbotron {
   background: #000000 url(../images/jumbotron-background.jpg) no-repeat center center;
   border-bottom: 4px solid #821616;
@@ -33,16 +51,32 @@
 
 #jumbotron h2 {
   color: #fff;
-  font: normal 122px 'SavileRowDefaultFont', serif;
+  font: normal 92px 'SavileRowDefaultFont', serif;
+
 }
 
-main section header h1, main section header h2 {
+main section header h1 {
   color: #7f1518;
   font: bold 45px 'SavileRowDefaultFont', serif;
   text-transform: uppercase;
+  text-align: left;
 }
 
-p {
+main section header h1:after {
+  content: url('../images/savile-arrow.png');
+  line-height: 45px;
+  padding-left: 16px;
+  margin-top: -8px;
+}
+
+main section header h2 {
+  color: #7f1518;
+  font: bold 45px 'SavileRowDefaultFont', serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+p, .services-items li {
   font: normal 20px Arapey sans-serif;
 }
 
@@ -54,6 +88,7 @@ p {
 }
 
 #partenaires {
+  margin-top: 2em;
   background-color: #f3f3f3;
 }
 

@@ -29,16 +29,14 @@
 <header id="main-header">
     <div class="container">
         <h1 class="pull-left">Savile Row</h1>
-        <nav class="navbar navbar-default pull-right" role="navigation">
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#home">Accueil</a>
-                    <li><a href="#services">Services</a>
-                    <li><a href="#equipe">Équipe</a>
-                    <li><a href="#partenaires">Partenaires</a>
-                    <li><a href="#actualites">Actualités</a>
-                </ul>
-            </div>
+        <nav class="pull-right" role="navigation">
+            <ul class="list-inline">
+                <li><a href="#home" class="active">Accueil</a>
+                <li><a href="#services">Services</a>
+                <li><a href="#equipe">Équipe</a>
+                <li><a href="#partenaires">Partenaires</a>
+                <li><a href="#actualites">Actualités</a>
+            </ul>
         </nav>
     </div>
 </header>
@@ -50,7 +48,7 @@
                 <div class="col-sm-4">
                     <h1>Savile Row</h1>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8" style="text-align: center; padding-top: 130px;">
                     <h2>La « grande mesure »</h2>
                 </div>
             </div>
@@ -58,45 +56,48 @@
     </section>
     <section id="services">
         <div class="container">
-            <header>
-                <h1>La « grande mesure » au service de vos ambitions</h1>
-            </header>
-            <p>
-                Les clients de Savile Row sont comme vous, la <strong>vision stratégique</strong> est
-                leur domaine. Ce sont des entrepreneurs et des entreprises de croissance, des hommes
-                et les femmes de conviction et de défis, qui parviennent à conjuguer dans leurs projets
-                de développement la création de valeur pour leur entreprise et l'émergence de sens
-                pour la société.
-            </p>
-            <p>
-                Mais pour passer outre les blocages et les scepticismes, ils sont désireux de l'accompagnement
-                « Grande Mesure », qui puisse les aider à mesurer tous les impacts d'un projet, à structurer
-                ses différentes étapes, puis à les mettre en application de façon coordonnée et jusqu'à
-                leurs termes : from Top to Bottom !
-            </p>
             <div class="row">
-                <div></div>
-                <div class="col-sm-6">
-                    <ul>
-                        <li>Arbitrer les portefeuilles immobiliers
-                        <li>Rechercher de nouvelles opportunités foncières et bâties
-                        <li>Transformer l'idée en programme immobilier
-                        <li>Baliser les délais des différents événements constitutifs du projet
-                        <li>Obtenir les autorisations administratives
-                        <li>Constituer les équipes techniques et fédérer les savoir-faire
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <ul>
-                        <li>Réaliser un diagnostic des relations bancaires existantes
-                        <li>Identifier tous les types de financements mobilisables
-                        <li>Rédiger les montages financiers cohérents nécessaires à l'approche bancaire
-                        <li>Actionner les réseaux de financement, bancaires et non-bancaires, les plus adaptés aux besoins du projet
-                        <li>Organiser toutes les ressources financières de l'entreprise pour dégager de nouvelles marges de manœuvre
-                    </ul>
+                <header>
+                    <h1>La « grande mesure » au service de vos ambitions</h1>
+                </header>
+                <p>
+                    Les clients de Savile Row sont comme vous, la <strong>vision stratégique</strong> est
+                    leur domaine. Ce sont des entrepreneurs et des entreprises de croissance, des hommes
+                    et les femmes de conviction et de défis, qui parviennent à conjuguer dans leurs projets
+                    de développement la création de valeur pour leur entreprise et l'émergence de sens
+                    pour la société.
+                </p>
+                <p>
+                    Mais pour passer outre les blocages et les scepticismes, ils sont désireux de l'accompagnement
+                    « Grande Mesure », qui puisse les aider à mesurer tous les impacts d'un projet, à structurer
+                    ses différentes étapes, puis à les mettre en application de façon coordonnée et jusqu'à
+                    leurs termes : from <strong>top</strong> to <strong>bottom</strong> !
+                </p>
+                <div class="row">
+                    <div style="text-align:center">
+                        <img src="/assets/images/services-intro.jpg">
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="services-items">
+                            <li>Arbitrer les portefeuilles immobiliers
+                            <li>Rechercher de nouvelles opportunités foncières et bâties
+                            <li>Transformer l'idée en programme immobilier
+                            <li>Baliser les délais des différents événements constitutifs du projet
+                            <li>Obtenir les autorisations administratives
+                            <li>Constituer les équipes techniques et fédérer les savoir-faire
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="services-items">
+                            <li>Réaliser un diagnostic des relations bancaires existantes
+                            <li>Identifier tous les types de financements mobilisables
+                            <li>Rédiger les montages financiers cohérents nécessaires à l'approche bancaire
+                            <li>Actionner les réseaux de financement, bancaires et non-bancaires, les plus adaptés aux besoins du projet
+                            <li>Organiser toutes les ressources financières de l'entreprise pour dégager de nouvelles marges de manœuvre
+                        </ul>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
     <section id="equipe">
@@ -220,4 +221,13 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+</script>
+
+<script src="//codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/jquery-2.0.3.min.js"><\/script>')</script>
+<script type="text/javascript">
+$('#main-header nav a').click(function(){
+    $('#main-header nav a').removeClass('active');
+    $(this).addClass('active');
+});
 </script>
