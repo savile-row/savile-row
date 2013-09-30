@@ -1,31 +1,56 @@
+@font-face {
+  font-family: 'SavileRowDefaultFont';
+  src: url(../fonts/Ayres.ttf), url(../fonts/Ayres.otf);
+}
+
 #main-header {
   background-color: #fefefe;
 }
 
+#main-header h1 {
+  text-indent: -1000px;
+  overflow: hidden;
+  background: transparent url(../images/header-logo.png) no-repeat left center;
+  width: 525px;
+  height: 126px;
+}
+
 #jumbotron {
-  background: #000000;
-  background: -moz-linear-gradient(left, #000000 0%, #4f2526 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(100%,#4f2526));
-  background: -webkit-linear-gradient(left, #000000 0%,#4f2526 100%);
-  background: -o-linear-gradient(left, #000000 0%,#4f2526 100%);
-  background: -ms-linear-gradient(left, #000000 0%,#4f2526 100%);
-  background: linear-gradient(to right, #000000 0%,#4f2526 100%);
+  background: #000000 url(../images/jumbotron-background.jpg) no-repeat center center;
   border-bottom: 4px solid #821616;
   width: 100%;
   height: 466px;
   color: #fff;
 }
 
-#jumbotron h1, #jumbotron h2 {
-  color: #fff;
+#jumbotron h1 {
+  text-indent: -1000px;
+  overflow: hidden;
+  background: transparent url(../images/jumbotron-logo.png) no-repeat center center;
+  width: 525px;
+  height: 470px;
 }
 
-main h1, main h2 {
-  color: #7f1718;
+#jumbotron h2 {
+  color: #fff;
+  font: normal 122px 'SavileRowDefaultFont', serif;
+}
+
+main section header h1, main section header h2 {
+  color: #7f1518;
+  font: bold 45px 'SavileRowDefaultFont', serif;
+  text-transform: uppercase;
+}
+
+p {
+  font: normal 20px Arapey sans-serif;
 }
 
 #equipe {
-  background-color: #e0e0e0;
+  background: #e0e0e0 url(../images/equipe-background.jpg) repeat center center;
+  border-color: #cbcbcb;
+  border-width: 1px 0;
+  border-style: solid;
 }
 
 #partenaires {
@@ -41,8 +66,9 @@ main h1, main h2 {
 }
 
 #main-footer {
-  background-color: black;
-  color: black;
+  background-color: #1a171b;
+  color: #1a171b;
+  height: 40px;
 }
 
 .gravatar {
@@ -55,9 +81,9 @@ main h1, main h2 {
 }
 
 .gravatar-border {
-  width: 166px;
+/*  width: 166px;
   height: 166px;
-  border: 1px solid #fefefe;
+  border: 1px dotted #fefefe;
   border-radius: 50%;
-  display: block;
+  display: block;*/
 }
