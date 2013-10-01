@@ -108,15 +108,15 @@ p, .services-items li {
 }
 
 li.contact-phone {
-  font: normal 16px Arial, sans-serif;
+  font: normal 16px Arapey, sans-serif;
   color: #3b3636;
 }
 li.contact-envelope a {
-  font: normal 16px Arial, sans-serif;
+  font: normal 16px Arapey, sans-serif;
   color: #b61e22;
 }
 li.contact-home {
-  font: normal 16px Arial, sans-serif;
+  font: normal 16px Arapey, sans-serif;
   color: #4f4f4f;
 }
 
@@ -128,9 +128,13 @@ a {
   background: #f3f3f3 url(../images/partners-background.png) repeat center center;
 }
 
-#partenaires p, dd {
+#partenaires p {
   font: normal 25px Arapey, sans-serif;
   color: #000;
+}
+
+#partenaires .media-body p {
+  font: normal 20px Arapey sans-serif;
 }
 
 #partenaires .media-body p a:after {
