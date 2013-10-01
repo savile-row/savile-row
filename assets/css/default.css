@@ -52,7 +52,9 @@
 #jumbotron h2 {
   color: #fff;
   font: normal 92px 'SavileRowDefaultFont', serif;
-
+  background: transparent url(../images/jumbotron-decorum.png) no-repeat center bottom;
+  padding-bottom: 100px;
+  letter-spacing: 6px;
 }
 
 main section header h1 {
@@ -105,6 +107,7 @@ p, .services-items li {
   border-color: #cbcbcb;
   border-width: 1px 0;
   border-style: solid;
+  padding: 20px 0;
 }
 
 li.contact-phone {
@@ -126,6 +129,7 @@ a {
 
 #partenaires {
   background: #f3f3f3 url(../images/partners-background.png) repeat center center;
+  padding: 20px 0;
 }
 
 #partenaires p {
@@ -143,6 +147,7 @@ a {
 
 #actualites {
   background-color: #7f1519;
+  padding: 20px 0;
 }
 
 #actualites * {
