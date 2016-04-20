@@ -73,7 +73,6 @@ main section header h1:after {
 main section h2 {
   color: #7f1518;
   font: bold 45px 'SavileRowDefaultFont', serif;
-  text-transform: capitalize;
 }
 
 main section h2 span {
