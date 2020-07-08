@@ -1,12 +1,10 @@
 # Savile Row
 
-L'Esprit londonien du sur-mesure, accompagne les projets immobiliers et le financement des entrepreneurs de croissance
-
-http://www.savile-row.fr
+L'Esprit londonien du sur-mesure, accompagne les projets immobiliers et le financement des entrepreneurs de croissance.
 
 ## Contact
 
-* Christine Dalies
+* ~~Christine Dalies~~
 * Laurent Bailly Barthez
 
 ## Auteurs
